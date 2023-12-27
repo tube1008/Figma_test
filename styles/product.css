@@ -1,0 +1,36 @@
+.product {width: 1440px; height: 1080px; margin: 0 auto;}
+.product .product_list {
+    width: 1200px; margin: 0 auto; margin-top: 30px;
+    display: inline-block;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.product .product_list .item {
+    width: 380px; height: 439px;
+}
+.product .product_list .item a {}
+.product .product_list .item a img {width: 380px; height: 290px;}
+.product .product_list .item h1 {font-size: 0.875rem; margin-top: 10px;}
+.product .product_list .item p {
+    font-weight: 500; font-size: 1rem; margin: 10px 0;
+    padding-bottom: 10px; 
+    border-bottom: 1px solid black;
+}
+.product .product_list .item .size_review {
+    margin-bottom: 15px;
+}
+.product .product_list .item .size_review span:last-child {float: right;} 
+.product .product_list .item .size_review span { 
+    font-size: 1rem;
+    display: inline-block;
+    
+}
+.product .product_list .item .best_handmade {}
+.product .product_list .item .best_handmade span:first-child {background-color: #FF2929; font-weight: 500; color: #fff;}
+.product .product_list .item .best_handmade span:last-child {background-color:#fff }
+.product .product_list .item .best_handmade span { 
+    font-size: 1rem;
+    margin-right: 5px; padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+} 
